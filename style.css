@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+  .navbar ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .navbar li{
+    font-family:'Poppins', sans-serif;
+    padding-left: 1rem;
+  }
+  .nav-item li{
+    color: #000;
+    size: 20px;
+    font-weight: normal;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    direction: none;
+  }
+  .navbar-logo{
+    flex: 1;
+    user-select: none;
+  }
+  .nav-link:hover{
+    background-color:#23cbc3;
+  }
+.navbarScroll.navbarDark {
+    background-color: teal;
+}
+.bgimage {
+    height:100vh;
+    background: url(images/gray.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+.me_title {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.me_desc {
+    font-size: 2rem;
+}
+.me-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+}
+
+#contact {
+    padding-bottom: 4rem;
+    padding-top: 10vh;
+}
+.imageAboutPage {
+    width: 100%;
+}
+.text-center{
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+}
+.col-lg-8{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.educ-text{
+    text-align: center;
+    padding-top: 15vh;
+    font-family: 'poppins', sans-serif;
+  }
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: cyan;
+}
+.fab {
+    color: #000000;
+}
+#footer {
+    background-color: whitesmoke;
+    text-align: center;
+}
+.col-lg-6{
+    align-content: left;
+}
+ol.list{
+    list-style-type: none;
+}
